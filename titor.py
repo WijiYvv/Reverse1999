@@ -17,9 +17,3 @@ def toTitor(nomal):
         num_hex = hex(num_ord)[2:]  # 将十进制数字转换为十六进制
         res.append(num_hex)
     return "".join(res).upper()
-
-
-titor = "546865496E6469616E4F6365616E77696C6C6265726F756768"
-nomal = "I'mJohnTitor"
-print(toNomal(titor))
-print(toTitor(nomal))
